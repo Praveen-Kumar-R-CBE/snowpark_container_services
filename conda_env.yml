@@ -2,7 +2,7 @@ name: snowpark-container-services-hol
 channels:
   - https://repo.anaconda.com/pkgs/snowflake
 dependencies:
-  - python=3.10
+  - python=3.11.9
   - snowflake-snowpark-python[pandas]
   - ipykernel
   - pip
