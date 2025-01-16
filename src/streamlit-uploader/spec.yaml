@@ -1,0 +1,10 @@
+spec:
+  containers:
+    - name: streamlit
+      image: pzmphqf-yq68416.registry.snowflakecomputing.com/container_hol_db/public/image_repo/simple-streamlit-app:dev
+      env:
+        SNOWFLAKE_WAREHOUSE: CONTAINER_HOL_WH
+  endpoints:
+    - name: streamlit
+      port: 8501
+      public: true
