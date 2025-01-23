@@ -1,1 +1,4 @@
 *.DS_Store*
+src/streamlit-uploader/streamlit/creds-sample.json
+src/streamlit-uploader/streamlit/__pycache__
+src/streamlit-uploader/streamlit/gcreds.json
